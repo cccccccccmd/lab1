@@ -15,6 +15,8 @@
 
 模拟时的诚实要求：**按顶会真实标准打分，不因为是自己的工作而手软**。历史校准：ICLR 接收线约在均分 6（borderline accept）附近。
 
+每轮开始前，获取目标会议**当年的官方 Reviewer Guidelines 与投稿 Checklist**（各会官网/OpenReview 有公开版本），把其中的评审维度并入 4 个角色的检查项——各会侧重不同（如 NeurIPS 重 broader impact 与可复现性 checklist，ACL 重 Limitations 章节合规），按真实标尺审才有校准意义。另外用 `PAPER/claims.md` 的 claim–证据矩阵作为 R2 的弹药：逐条 claim 攻击其证据强度。
+
 ## 2. 意见分诊与修复
 
 把 4 份意见合并去重，分为三类处理，全部记入 `REVIEWS/round-N.md`：
